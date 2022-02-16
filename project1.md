@@ -1,0 +1,30 @@
+1  sudo apt update
+    2  sudo apt install apache2
+    3  sudo systemctl status apache2
+    4  curl http://localhost:80
+    5  sudo apt install mysql-server
+    6  sudo mysql_secure_installation
+    7  mysql
+    8  sudo mysql
+    9  sudo apt install php libapache2-mod-php php-mysql
+   10  mkdir /var/www/projectlamp
+   11  sudo mkdir /var/www/projectlamp
+   12  which user
+   13  cd /home
+   14  ls
+   15  sudo chown -R $USER:$USER /var/www/projectlamp
+   16  sudo vi /etc/apache2/sites-available/projectlamp.conf
+   17  sudo ls /etc/apache2/sites-available
+   18  sudo a2ensite projectlamp
+   19  systemctl reload apache2
+   20  sudo systemctl reload apache2
+   21  sudo a2dissite 000-default
+   22  sudo apache2ctl configtest
+   23  sudo systemctl reload apache2
+   24  sudo cd /var/www/projectlamp
+   25  cd /var/www/projectlamp
+   26  sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
+   27  sudo vim /etc/apache2/mods-enabled/dir.conf
+   28  sudo systemctl reload apache2
+   29  vim /var/www/projectlamp/index.php
+   30  sudo rm /var/www/projectlamp/index.php
