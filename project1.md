@@ -28,3 +28,7 @@
    - 28  sudo systemctl reload apache2
    - 29  vim /var/www/projectlamp/index.php
    - 30  sudo rm /var/www/projectlamp/index.php
+
+- ![image](https://user-images.githubusercontent.com/46729323/154194576-16ddb027-0d00-4fba-9d6c-4d9a1281c784.png)
+- ![image](https://user-images.githubusercontent.com/46729323/154195362-1f2a9dde-3867-4eaf-a6c9-723e7389c73e.png)
+
