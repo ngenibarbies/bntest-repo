@@ -1,0 +1,33 @@
+ubuntu@ip-172-31-94-42:~$ history
+    - apt get update
+    -  apt-get update
+    -  sudo apt-get update
+    -  sudo apt install nginx
+    -  sudo systemctl status nginx
+    -  curl http://localhost:80
+    -  curl -s http://169.254.169.254/latest/meta-data/public-ipv4
+    -  sudo apt install mysql-server
+    -  sudo mysql_secure_installation
+    - sudo mysql
+    - sudo apt install php-fpm php-mysql
+    -  sudo mkdir /var/www/projectLEMP
+    -  sudo chown -R $USER:$USER /var/www/projectLEMP
+    -  sudo nano /etc/nginx/sites-available/projectLEMP
+    -  sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+    -  sudo nginx -t
+    -  sudo unlink /etc/nginx/sites-enabled/default
+    -  sudo systemctl reload nginx
+    -  sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html
+    -  sudo nano /var/www/projectLEMP/info.php
+    -  sudo rm /var/www/your_domain/info.php
+    -  sudo rm /var/www/projectLEMP/info.php
+    -  sudo mysql
+    -  mysql -u example_user -p
+    -  nano /var/www/projectLEMP/todo_list.php
+    -  mysql -u example_user -p
+    
+    
+  ![LEMP implementation]
+  <mysql table.png>
+  
+    
